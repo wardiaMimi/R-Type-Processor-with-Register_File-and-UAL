@@ -22,12 +22,12 @@ The available operation codes are:
     op = 110 : NOT
 
 - To enter your own instructions, there are two options. 
-The first option is to set the "active" bit to 1 and then start writing in the "inst_in" field with the corresponding "inst_adr" address. Clicking on the clock of the instruction memory will create a rising edge to store the instruction.
+The first option is to set the "active" bit to 1 and then start writing in the "inst_in" field with the corresponding "inst_adr" address. Click on the clock of the instruction memory ``` clk_int``` to create a rising edge to store the instruction.
 
 
 ![image](https://github.com/wardiaMimi/R-Type-Processor-with-Register_File-and-UAL/assets/91344458/0735268c-3b6f-4c9b-b8ad-5a7bb0939161)
 
-Alternatively, you can directly click on the case where you want to write your instruction. When the borders are red, you can start writing in hexadecimal format.
+Alternatively, you can directly click on the field where you want to write your instruction. When the borders are red, you can start writing in hexadecimal format.
 
 ![image](https://github.com/wardiaMimi/R-Type-Processor-with-Register_File-and-UAL/assets/91344458/43e557d7-4ac8-493a-a798-2955472ec82c)
 
@@ -36,7 +36,7 @@ the instruction ```add r0, r1, r2``` would be represented as ```0000 0000 0001 0
 
 - To finish your program, you need to include the instruction ```9000``` to stop the PC.
 
-- To fill the registers in the register file, set the "active" bit to 1 and then fill the "A_in" field with the register address (0000 to 1111) and the "D_in" field with the corresponding data (number).
+- To fill the registers in the register file, set the "active" bit to 1 and then fill the "A_in" field with the register address (0000 to 1111) and the "D_in" field with the corresponding data (number). Click on the clock of the register file ```clk_reg``` to create a rising edge to store the instruction.
 #### After initializing the register file and the instruction memory
 - set "active" to 0 and make sure the PC is set to 0. You can clear the PC by putting this bit to 1.
 
@@ -44,7 +44,6 @@ the instruction ```add r0, r1, r2``` would be represented as ```0000 0000 0001 0
 - As the simulation begins, the clock will switch between high and low states, causing the program counter to increment and the program to begin execution.
 
 - You can verify the results in the destination registers in the register file.
-
 
 [processor.webm](https://github.com/wardiaMimi/R-Type-Processor-with-Register_File-and-UAL/assets/91344458/001b0b36-8a6e-48f2-b8d4-e26812aad265)
 
