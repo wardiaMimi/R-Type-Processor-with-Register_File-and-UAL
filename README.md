@@ -47,26 +47,4 @@ the instruction ```add r0, r1, r2``` would be represented as ```0000 0000 0001 0
 
 [processor.webm](https://github.com/wardiaMimi/R-Type-Processor-with-Register_File-and-UAL/assets/91344458/001b0b36-8a6e-48f2-b8d4-e26812aad265)
 
-## Contributing
-Thank you for your interest in contributing to this project! Here are the steps to follow to make changes and submit a pull request:
-Fork the repository by clicking the "Fork" button on the GitHub page.
 
-  - Download the Logisim file, main.circ, to your local machine.
-
-  - Make your changes to the Logisim file.
-
-  - Commit your changes with a brief description of what you changed.
-
-  - Push your changes to your forked repository.
-
-  - Submit a pull request by clicking the "New Pull Request" button on the GitHub page.
-
-  - Provide a brief description of your changes in the pull request message.
-
-  - Wait for the project owner to review your changes and provide feedback.
-
-  - Once your changes have been approved, the project owner will merge them into the main repository.
-
-If you have any questions or need help with the contribution process, please don't hesitate to contact us by creating an issue in the GitHub repository.
-
-We welcome all contributions, no matter how small or large, and we appreciate your help in making this project even better! 
